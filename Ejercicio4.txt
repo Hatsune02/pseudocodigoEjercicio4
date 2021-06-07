@@ -1,0 +1,16 @@
+Algoritmo Ejercicio4
+	edad <- 0
+	mayorEdad <- 0
+	menorEdad <- 100
+	Para i<-1 Hasta 20 Hacer
+		Escribir 'Escriba una edad'
+		Leer edad
+		Si (edad>=mayorEdad) Entonces
+			mayorEdad <- edad
+		FinSi
+		Si (edad<=menorEdad) Entonces
+			menorEdad <- edad
+		FinSi
+	FinPara
+	Escribir 'La mayor edad es de ',mayorEdad,' y la menor edad es ',menorEdad
+FinAlgoritmo
